@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>都道府県タロット ── 47 PREFECTURES TAROT</title>
+<meta property="og:title" content="都道府県タロット ── 47 PREFECTURES TAROT">
+<meta property="og:description" content="47枚。47の土地。47の問い。日本47都道府県を1枚ずつのオラクルカードにした、土地のタロット。">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://smil17990-arch.github.io/tarot-todofuken/ogp.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700;800&family=Zen+Old+Mincho:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="home-btn" id="homeBtn" aria-label="トップに戻る" style="display:none;">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v9a1 1 0 0 0 1 1H9a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h2.5a1 1 0 0 0 1-1v-9"/></svg>
+</button>
+
+<!-- TOP SCREEN -->
+<section class="screen show" id="screen-top">
+  <div class="top-wrap">
+    <div class="top-en">47 PREFECTURES TAROT</div>
+    <h1 class="top-title">都道府県タロット</h1>
+    <div class="top-catch">47枚。47の土地。47の問い。</div>
+
+    <div class="deck-back" id="deckBackStatic" aria-hidden="true">
+      <div class="deck-back-frame">
+        <div class="deck-back-emblem">
+          <svg viewBox="0 0 100 140">
+            <polygon points="50,8 56,50 98,58 56,66 50,108 44,66 2,58 44,50" fill="none" stroke="currentColor" stroke-width="1.4"/>
+            <path d="M30 78 Q40 60 55 65 Q75 70 68 95 Q60 118 40 110 Q22 103 30 78 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn-primary" id="drawBtnTop" aria-label="一枚引く">一枚引く</button>
+
+    <p class="top-desc">
+      47枚。47の問い。<br><br>
+      タロットは元来、人生の局面を読むものだ。ならば土地にも読めるはずだと思った。その土地が持つ地形、産物、祭り、記憶。それを一枚の絵に圧縮する試みがこのシリーズだ。<br><br>
+      日本を北から南へ読むと、山の形が変わり、海の色が変わり、祭りが変わる。でも金の八芒星は、どの県の上にも同じように輝いている。
+    </p>
+    <div class="top-buttons-sub">
+      <button class="btn-secondary" id="listBtnTop">47都道府県を見る</button>
+    </div>
+  </div>
+</section>
+
+<!-- DRAW / FLIP SCREEN -->
+<section class="screen" id="screen-flip">
+  <div class="flip-stage">
+    <div class="flip-container" id="flipContainer">
+      <div class="flip-inner" id="flipInner">
+        <div class="flip-face flip-back">
+          <div class="flip-back-frame">
+            <div class="flip-back-emblem">
+              <svg viewBox="0 0 100 140">
+                <polygon points="50,8 56,50 98,58 56,66 50,108 44,66 2,58 44,50" fill="none" stroke="currentColor" stroke-width="1.4"/>
+                <path d="M30 78 Q40 60 55 65 Q75 70 68 95 Q60 118 40 110 Q22 103 30 78 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="flip-face flip-front">
+          <img id="flipImg" src="" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="img-placeholder" style="display:none;"><span id="flipImgPlaceholderText"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULT SCREEN -->
+<section class="screen" id="screen-result">
+  <main>
+    <div id="resultBody"></div>
+  </main>
+</section>
+
+<!-- LIST SCREEN -->
+<section class="screen" id="screen-list">
+  <main>
+    <div class="list-title">47都道府県</div>
+    <div id="regionSections"></div>
+  </main>
+</section>
+
+<footer>
+  都道府県タロット ── 47 PREFECTURES TAROT<br>
+  絵：Gemini ／ 文：Claude ／ 編：無限納豆<br>
+  原作note: <a href="https://note.com/vortex951/n/n3224cd9571da" target="_blank" rel="noopener">都道府県タロット 北から読む日本</a><br>
+  PLANNER: MUGEN NATTO
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
