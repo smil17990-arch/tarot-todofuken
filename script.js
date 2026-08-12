@@ -42,30 +42,30 @@ const prefectures = [
   keyword:"反射", message:"傷ついた土地が、それでも光を映し返す。",
   image:"1778567676-dlqcG2o3BeIp1s4VRaMH5hjJ.png" },
 
-{ id:8, prefecture:"茨城", region:"関東", title:"ここにタイトルを入力",
-  scene:"ここに情景描写を入力",
-  keyword:"ここにキーワードを入力", message:"ここにメッセージを入力",
-  image:"" },
+{ id:8, prefecture:"茨城", region:"関東", title:"双峰と滝",
+  scene:"筑波山の二つの峰が金の円を背に立つ。偕楽園の梅が枝を伸ばし、その下の逆三角形には袋田の滝が幾重にも流れ落ちる。",
+  keyword:"重なり", message:"ひとつに見えるものにも、いくつもの峰と流れがある。違いを抱えたまま、一つの景色になる。",
+  image:"images/08_ibaraki.jpg", phantom:true },
 
 { id:9, prefecture:"栃木", region:"関東", title:"滝と聖域",
   scene:"華厳の滝が逆三角形の中心を垂直に落ちている。日光東照宮の装飾紋様が水底に沈む。紅葉と苺という、渋さと可愛さの同居。",
   keyword:"権威と自然の共存", message:"人が神を祀った場所に、水が落ち続けている。",
   image:"1778567714-PZqXV45F9LfgWeAwiu0D3bHU.png" },
 
-{ id:10, prefecture:"群馬", region:"関東", title:"ここにタイトルを入力",
-  scene:"ここに情景描写を入力",
-  keyword:"ここにキーワードを入力", message:"ここにメッセージを入力",
-  image:"" },
+{ id:10, prefecture:"群馬", region:"関東", title:"三山と湯",
+  scene:"赤城・榛名・妙義の上毛三山が金の円を背に連なる。桑と繭、その下の逆三角形には草津温泉の湯畑から白い湯気が立ち上る。",
+  keyword:"内熱", message:"静かな山の下にも、地面の奥にも、目には見えない熱が流れ続けている。",
+  image:"images/10_gunma.jpg", phantom:true },
 
 { id:11, prefecture:"埼玉", region:"関東", title:"祭りの夜",
   scene:"武甲山は石灰岩で削られた独特の山容をしている。秩父夜祭の提灯が逆三角形に満ちている。あの祭りの密度は、内陸の県が持つ熱量の証明だ。",
   keyword:"内側の熱", message:"派手に見えないが、夜になると火が灯る。",
   image:"1778567760-9ENp8VjM5xaustSv7UDlX6Qn.png" },
 
-{ id:12, prefecture:"千葉", region:"関東", title:"ここにタイトルを入力",
-  scene:"ここに情景描写を入力",
-  keyword:"ここにキーワードを入力", message:"ここにメッセージを入力",
-  image:"" },
+{ id:12, prefecture:"千葉", region:"関東", title:"海と石",
+  scene:"太平洋から金の円が昇り、犬吠埼の灯台が海を見つめる。菜の花と落花生、その下の逆三角形には鋸山の岩壁と大仏が浮かぶ。",
+  keyword:"展望", message:"海の向こうを見ることと、自分の足元を見つめること。その両方が、新しい景色を開いていく。",
+  image:"images/12_chiba.jpg", phantom:true },
 
 { id:13, prefecture:"東京", region:"関東", title:"塔と門",
   scene:"山がない。その代わりにスカイツリーが金の円を突き抜けた。人工物が自然物の役割を担う、それが東京だ。逆三角形に夜景の密度が圧縮されて、底に雷門が鎮座する。",
@@ -82,20 +82,20 @@ const prefectures = [
   keyword:"豊かさの重さ", message:"これだけ実れば、それなりの覚悟がいる。",
   image:"1778583081-CK4kRWwMueUGla0Yxv9TpB3f.png" },
 
-{ id:16, prefecture:"富山", region:"中部", title:"ここにタイトルを入力",
-  scene:"ここに情景描写を入力",
-  keyword:"ここにキーワードを入力", message:"ここにメッセージを入力",
-  image:"" },
+{ id:16, prefecture:"富山", region:"中部", title:"雪峰と峡谷",
+  scene:"雪を抱いた立山連峰が金の円を背に連なる。雷鳥とチューリップ、その下の逆三角形には黒部峡谷と小さな鉄道が走る。",
+  keyword:"深度", message:"高く登るほど、谷は深くなる。見える高さと見えない深さは、いつも同時に存在している。",
+  image:"images/16_toyama.jpg", phantom:true },
 
-{ id:17, prefecture:"石川", region:"中部", title:"ここにタイトルを入力",
-  scene:"ここに情景描写を入力",
-  keyword:"ここにキーワードを入力", message:"ここにメッセージを入力",
-  image:"" },
+{ id:17, prefecture:"石川", region:"中部", title:"庭と海",
+  scene:"兼六園の徽軫灯籠と松が、金の円を背に静かに立つ。逆三角形には能登の海と白米千枚田。金箔の光が、水と田を細く縁取っている。",
+  keyword:"洗練", message:"自然を整え、手を加え、それでも自然の美しさを失わない。",
+  image:"images/17_ishikawa.jpg", phantom:true },
 
-{ id:18, prefecture:"福井", region:"中部", title:"ここにタイトルを入力",
-  scene:"ここに情景描写を入力",
-  keyword:"ここにキーワードを入力", message:"ここにメッセージを入力",
-  image:"" },
+{ id:18, prefecture:"福井", region:"中部", title:"断崖と太古",
+  scene:"東尋坊の岩壁に日本海の波が打ち寄せる。越前水仙が潮風に揺れ、その下の地層には恐竜の化石が眠っている。",
+  keyword:"発掘", message:"失われたものは、消えたのではなく、まだ深いところに埋まっているのかもしれない。",
+  image:"images/18_fukui.jpg", phantom:true },
 
 { id:19, prefecture:"山梨", region:"中部", title:"鏡の富士",
   scene:"富士五湖が富士山を映している。山と水鏡。信玄の軍配が底に沈む。葡萄と桃という、日本屈指の果物産地。",
@@ -245,7 +245,11 @@ const prefectures = [
 
 const REGIONS_ORDER = ["北海道","東北","関東","中部","近畿","中国","四国","九州・沖縄"];
 const IMG_BASE = "https://assets.st-note.com/img/";
-function imgUrl(f){ return f ? (IMG_BASE + f + "?width=1200") : ""; }
+function imgUrl(f){
+  if(!f) return "";
+  if(f.startsWith("http") || f.startsWith("images/")) return f;
+  return IMG_BASE + f + "?width=1200";
+}
 const $ = (id) => document.getElementById(id);
 
 /* ============================================================
@@ -309,6 +313,7 @@ function showResult(p){
   const hasImg = !!p.image;
   let html = "";
   html += '<div class="rs-pref">' + p.prefecture + '</div>';
+  if(p.phantom){ html += '<div class="rs-phantom-badge">幻の六枚</div>'; }
   html += '<div class="rs-title">―― ' + p.title + '</div>';
   if(hasImg){
     html += '<div class="rs-img-wrap"><img src="' + imgUrl(p.image) + '" alt="' + p.prefecture + '" onerror="this.parentElement.innerHTML=\'<div class=&quot;pi-placeholder&quot; style=&quot;height:100%;&quot;>' + p.prefecture + '</div>\';"></div>';
@@ -364,7 +369,7 @@ function buildList(){
         ? '<img src="' + imgUrl(p.image) + '" alt="' + p.prefecture + '" onerror="this.outerHTML=\'<div class=&quot;pi-placeholder&quot;>' + p.prefecture + '</div>\';">'
         : '<div class="pi-placeholder">' + p.prefecture + '</div>';
       return '<div class="pref-item" data-id="' + p.id + '">' + inner +
-        '<div class="pi-text"><div class="pi-name">' + p.prefecture + '</div></div></div>';
+        '<div class="pi-text"><div class="pi-name">' + p.prefecture + (p.phantom ? ' <span class="pi-phantom">✦</span>' : '') + '</div></div></div>';
     }).join("");
     block.innerHTML = '<div class="region-name">' + region + '</div><div class="pref-grid">' + grid + '</div>';
     wrap.appendChild(block);
